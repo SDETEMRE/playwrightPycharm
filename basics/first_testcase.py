@@ -6,3 +6,4 @@ with sync_playwright() as p:
     page.goto('https://www.google.com/')
     print('chrome opened succesfully')
     print(page.title())
+    browser.close()
